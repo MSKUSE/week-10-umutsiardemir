@@ -1,0 +1,17 @@
+public class Main {
+    public static void main(String[] args) {
+
+        Stack stack = new StackArray();
+        stack.push("String");
+        stack.push(12);
+        stack.peek();
+        System.out.println("pop= " + stack.pop());
+        stack.peek();
+        System.out.println("Pop = " + stack.pop());
+        System.out.println("Is empty" + stack.isEmpty());
+        stack.peek();
+        StackedLinkedList stack = new StackLinkedList()
+
+
+    }
+}
